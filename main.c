@@ -62,15 +62,14 @@ int main(void)
     {
 		WaitZeroCross();		
 		TW_CycleUpdate();
-		ButtonCycleUpdate();
-		LedCycleUpdate();
-        BuzzerCycleUpdate();
         RelayCycleUpdate();
 		DimmerCycleUpdate();
 		DipCycleUpdate();
+		abc();
 		
 #if 0		
 		UltraCycleUpdate();
+		func();
 		VolDetCycleUpdate();
 #endif		
     }
